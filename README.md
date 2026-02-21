@@ -1,97 +1,67 @@
 # Hi, I'm William 👋
 
-I work mainly with **Ruby on Rails** and **n8n**, building **SaaS products, automations, and API-driven systems** used in real production environments.
+I'm a Software Engineer who builds **SaaS products, complex automations, and API-driven systems** used in real production environments. 
 
-My focus is on **reliable software**, clean architecture, automated testing, and scalable infrastructure.
+My core focus is on **reliable software**, clean architecture, automated testing, and scalable infrastructure. I design systems with an emphasis on stability, seamless integration, and long-term maintainability.
 
----
-
-## 🚀 Ruby on Rails
-
-### 🧱 SaaS Boilerplate (in development)
-**Repository:** `rails-saas-boilerplate`
-
-A production-oriented Ruby on Rails boilerplate used as the foundation for a real SaaS product  
-(**https://priorizzi.ai/**).
-
-**Key concepts and features:**
-- Multi-tenant SaaS structure
-- User roles and access restrictions
-- Subscription and billing logic with **Stripe**
-- Background jobs with **Sidekiq**
-- Caching and queues with **Redis**
-- Production-ready architecture patterns
-
-> ⚠️ This repository is under active development and represents an extracted and evolving
-> part of the architecture used in a live SaaS application.
+### 🛠️ Tech Stack & Skills
+- **Backend:** Ruby on Rails, RSpec, Redis, Sidekiq, APIs (REST/Webhooks)
+- **Automations & AI:** n8n, OpenAI, Gemini, DeepSeek
+- **Infrastructure:** Docker, Coolify, AWS, Oracle Cloud, Cloudflare, CI/CD
+- **Integrations:** Stripe, WhatsApp (Evolution, Wati), CRMs, Google Workspace
 
 ---
 
-### 🧪 Automated Testing (Rails)
+## 🚀 Ruby on Rails Projects
+
+### 🧱 SaaS Boilerplate (In Development)
+**Repository:** `rails-saas-boilerplate` | **Live App:**(https://priorizzi.ai/)
+
+A production-oriented Ruby on Rails boilerplate used as the foundation for a real AI-powered SaaS product. It represents an extracted and evolving part of the architecture used in a live application.
+
+**Key Features:**
+- Multi-tenant SaaS structure with strict user roles and access restrictions
+- Subscription and billing logic powered by **Stripe**
+- Background processing with **Sidekiq + Redis**
+- Performance optimization and production-ready architecture patterns
+
+### 🧪 Automated Testing Playground
 **Repository:** `rails-automated-tests-barbershop`
 
-A Ruby on Rails application focused on **automated testing practices**, based on a real
-barbershop / hair salon system.
+A Ruby on Rails application focused heavily on **automated testing practices**, based on a real-world barbershop/hair salon business logic.
 
 **Highlights:**
-- RSpec setup and structure
-- Model, service, and request specs
-- Test data with factories
-- Real-world business rules covered by tests
+- Comprehensive **RSpec** setup and structure
+- Coverage across Models, Services, and Requests
+- Test data generation with Factories
+- Real-world business rules secured by automated tests
 
 ---
 
-## 🤖 n8n & Automations
+## 🤖 n8n, AI & Complex Automations
 
-I design and operate complex automations using **n8n**, integrating multiple systems and APIs
-to replace manual processes and scale operations.
+I design and operate resilient automations using **n8n** (self-hosted), integrating multiple systems to replace manual processes, scale operations, and build AI agents. These automations are built with retry mechanisms, fallbacks, and monitoring.
 
-**Examples of integrations:**
-- WhatsApp APIs (Evolution, Wati)
-- Payment systems (Pix, credit card)
-- CRMs and ERPs
-- Google Sheets, Drive, Calendar
-- Facebook Ads, Notion, Tally, Trello
-- AI providers (OpenAI, Gemini, DeepSeek)
-- Webhooks and custom APIs
-
-These automations handle **high-volume messaging**, lead qualification, document processing,
-billing workflows, and AI-powered customer interactions.
+**What I build with n8n:**
+- **AI-Powered Agents:** For sales, customer support, and scheduling (OpenAI, Gemini, DeepSeek).
+- **High-Volume Messaging:** WhatsApp automations via Evolution API and Wati.
+- **Business Workflows:** CRM/Lead management pipelines, document processing, and billing workflows.
+- **Ecosystem Integrations:** Payment gateways (Pix, Credit Card), Google Workspace, Facebook Ads, Notion, Trello, and custom APIs.
 
 ---
 
 ## ⚙️ DevOps & Infrastructure
 
-Hands-on experience operating and maintaining production environments, with a focus on
-**practical infrastructure setup, automation, and reliability**.
+I don't just write code; I deploy and maintain it. I have solid experience operating production environments, ensuring high availability and secure deployments.
 
-**Containerization & Orchestration**
-- Docker for application containerization
-- Kubernetes (basic usage for deployment and service management)
-
-**Cloud & Servers**
-- Oracle Cloud Infrastructure (OCI):
-  - VPS creation and management
-  - Automated deployments via Git and SSH
-- AWS:
-  - VPS-based deployments (EC2-style usage)
-  - Environment setup for Rails and automation services
-
-**Networking & Security**
-- Cloudflare:
-  - DNS configuration
-  - Domain management
-  - Storage and basic security features
-
-**Operations**
-- Background job infrastructure (Sidekiq + Redis)
-- Self-hosted n8n environments
-- Webhook reliability, retries, and fallback strategies
-- CI/CD and versioned deployments
+- **Server Management:** VPS-based deployments on **Oracle Cloud** and **AWS**.
+- **Containerization:** Dockerized applications and services.
+- **Self-Hosting:** Managing production-grade **n8n** setups using **Coolify**.
+- **Networking & Storage:** **Cloudflare** DNS configuration and storage management.
+- **Reliability:** Redis-backed queue systems, background job monitoring, and CI/CD versioned deployments.
 
 ---
 
-## 📫 Contact
+## 📫 Let's Connect
 
-- Email: williamrcesar@gmail.com
-- LinkedIn: https://www.linkedin.com/in/williamrcesar/
+- **LinkedIn:**(https://www.linkedin.com/in/williamrcesar/)
