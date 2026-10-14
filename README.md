@@ -1,96 +1,125 @@
 # Hi, I'm William 👋
 
-I work mainly with **Ruby on Rails** and **n8n**, building **SaaS products, automations, and API-driven systems** used in real production environments.
+## Senior AI Engineer | AI Agents | LLM Evaluation | Cloud & DevOps
 
-My focus is on **reliable software**, clean architecture, automated testing, and scalable infrastructure.
+I build AI systems that connect models, tools, knowledge, and business
+processes.
 
----
+My experience includes production AI agents, enterprise integrations,
+multimodal analysis, evaluation workflows, and cloud infrastructure.
 
-## 🚀 Ruby on Rails
+I work across the full delivery cycle: technical discovery, architecture,
+implementation, testing, deployment, monitoring, and continuous improvement.
 
-### 🧱 SaaS Boilerplate (in development)
-**Repository:** `rails-saas-boilerplate`
+## 🤖 AI Agents and Orchestration
 
-A production-oriented Ruby on Rails boilerplate used as the foundation for a real SaaS product  
-(**https://priorizzi.ai/**).
+My areas of focus include:
 
-**Key concepts and features:**
-- Multi-tenant SaaS structure
-- User roles and access restrictions
-- Subscription and billing logic with **Stripe**
-- Background jobs with **Sidekiq**
-- Caching and queues with **Redis**
-- Production-ready architecture patterns
+- Stateful agents and multi-step workflows
+- Tool calling and structured outputs
+- Task decomposition and dynamic routing
+- Retrieval-Augmented Generation — RAG
+- Context engineering, memory, and knowledge grounding
+- Human approval and controlled execution
+- MCP tools and agent communication
+- Evaluation, guardrails, retries, and fallback strategies
 
-> ⚠️ This repository is under active development and represents an extracted and evolving
-> part of the architecture used in a live SaaS application.
+Technologies:
+Python · LangChain · LangGraph · n8n · OpenAI · Claude · Gemini ·
+DeepSeek · Ollama · PostgreSQL · Supabase
 
----
+## 🧪 Evaluation and Model Engineering
 
-### 🧪 Automated Testing (Rails)
-**Repository:** `rails-automated-tests-barbershop`
+I focus on making AI behavior measurable and reproducible:
 
-A Ruby on Rails application focused on **automated testing practices**, based on a real
-barbershop / hair salon system.
+- Dataset preparation and versioning
+- Human reference datasets and regression tests
+- Model and prompt comparisons
+- Retrieval quality and grounded-answer evaluation
+- Failure analysis and adversarial test cases
+- Structured-output validation
+- Quality, latency, and cost measurement
 
-**Highlights:**
-- RSpec setup and structure
-- Model, service, and request specs
-- Test data with factories
-- Real-world business rules covered by tests
+My public project roadmap also includes model specialization,
+fine-tuning, and routing experiments with documented training
+and evaluation results.
 
----
+## ⚙️ Cloud, DevOps and LLMOps
 
-## 🤖 n8n & Automations
+- Docker and containerized services
+- AWS ECS/Fargate, EC2, RDS, SSM, and CloudWatch
+- Kubernetes and infrastructure automation
+- CI/CD with GitHub Actions
+- Background workers, queues, and asynchronous processing
+- OAuth, JWT, secrets management, and access controls
+- Langfuse, Sentry, and OpenTelemetry
+- Structured logs, tracing, and production monitoring
+- Retry-safe webhooks and idempotent workflows
 
-I design and operate complex automations using **n8n**, integrating multiple systems and APIs
-to replace manual processes and scale operations.
+## 🏢 Production Experience
 
-**Examples of integrations:**
-- WhatsApp APIs (Evolution, Wati)
-- Payment systems (Pix, credit card)
-- CRMs and ERPs
-- Google Sheets, Drive, Calendar
-- Facebook Ads, Notion, Tally, Trello
-- AI providers (OpenAI, Gemini, DeepSeek)
-- Webhooks and custom APIs
+Examples of my work include:
 
-These automations handle **high-volume messaging**, lead qualification, document processing,
-billing workflows, and AI-powered customer interactions.
+- AI support integrations with Dynamics 365, Business Central,
+  Snowflake, and n8n.
+- Knowledge-coverage analytics grounded in 66 knowledge-base articles.
+- Evaluation of a support integration against 790 historical tickets.
+- Multimodal analysis evaluated against human reference datasets.
+- Prompt versioning, approval flows, secure webhooks, and
+  observability for AI communication platforms.
 
----
+Client implementations are private. Public projects use synthetic
+or public data to demonstrate selected engineering approaches.
 
-## ⚙️ DevOps & Infrastructure
+## 🛠️ Public AI Engineering Projects — Planned
 
-Hands-on experience operating and maintaining production environments, with a focus on
-**practical infrastructure setup, automation, and reliability**.
+These projects are planned and will be linked here as they become
+executable and documented.
 
-**Containerization & Orchestration**
-- Docker for application containerization
-- Kubernetes (basic usage for deployment and service management)
+### Enterprise Support Agent
 
-**Cloud & Servers**
-- Oracle Cloud Infrastructure (OCI):
-  - VPS creation and management
-  - Automated deployments via Git and SSH
-- AWS:
-  - VPS-based deployments (EC2-style usage)
-  - Environment setup for Rails and automation services
+A knowledge-grounded agent with financial-data tools,
+source attribution, human approval, and execution tracing.
 
-**Networking & Security**
-- Cloudflare:
-  - DNS configuration
-  - Domain management
-  - Storage and basic security features
+Planned stack:
+Python · LangGraph · PostgreSQL/pgvector · MCP · Langfuse · Docker
 
-**Operations**
-- Background job infrastructure (Sidekiq + Redis)
-- Self-hosted n8n environments
-- Webhook reliability, retries, and fallback strategies
-- CI/CD and versioned deployments
+### Agent Evaluation Lab
 
----
+A reproducible evaluation suite covering retrieval failures,
+unsupported answers, tool errors, prompt injection, and ambiguous requests.
+
+Planned outputs:
+Versioned datasets · Failure taxonomy · Quality reports ·
+Latency and cost comparisons · CI regression checks
+
+### Small LLM Specialization
+
+An end-to-end experiment specializing a small open model for
+intent classification or structured information extraction.
+
+Planned stack:
+Hugging Face · PyTorch · PEFT/LoRA · Evaluation scripts ·
+Containerized inference API
+
+### Task Router Benchmark
+
+A comparison of deterministic rules, a small classifier, and
+LLM routing for deciding which tasks need a more capable model.
+
+Planned measurements:
+Routing accuracy · Escalation errors · Latency · Cost per request
+
+### AI Service Deployment Reference
+
+A deployable reference architecture for AI APIs and workers.
+
+Planned stack:
+Docker · Terraform · GitHub Actions · Cloud Run or AWS ECS ·
+Secrets management · OpenTelemetry
 
 ## 📫 Contact
 
-- LinkedIn: https://www.linkedin.com/in/williamrcesar/
+- [LinkedIn](https://www.linkedin.com/in/williamrcesar/)
+
+Based in Brazil · Portuguese native · Advanced English
